@@ -1,0 +1,40 @@
+.main-container {
+  max-width: 1180px;
+  margin: auto;
+}
+
+h1 {
+  font-size: 1.6rem;
+}
+
+p {
+  font-size: 1.6rem;
+}
+
+.bottom-field {
+  width: 25%;
+  margin: 1rem auto;
+  padding: 0.5rem;
+  border-radius: 12px;
+  background-color: rgba(255, 255, 255, 0.2);
+  text-align: center;
+}
+
+.bottom-field:hover {
+  transition: all 0.2s ease-in-out;
+  transform: scale(
+    1.2
+  ); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+.bold {
+  font-weight: 700;
+}
+
+.display-weather {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: flex-start;
+  align-items: flex-start;
+}
